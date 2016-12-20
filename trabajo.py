@@ -1,5 +1,4 @@
 import matplotlib
-matplotlib.use("Qt5Agg")
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -14,4 +13,4 @@ plt.ylabel('voltage (mV)')
 plt.title('About as simple as it gets, folks')
 plt.grid(True)
 print("hola mundo con grafica")
-plt.ion()
+plt.show()
