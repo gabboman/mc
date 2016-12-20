@@ -1,4 +1,4 @@
 import sys
-print (sys.version)
+k= sys.version
 
 print ("hola mundo")
